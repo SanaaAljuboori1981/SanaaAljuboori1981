@@ -1,0 +1,3 @@
+const storyText = document.getElementById("storyText);
+choicesContainer = document.getElementById("choices);
+const.gameContainer = document.body;
