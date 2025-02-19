@@ -29,5 +29,5 @@ currentScene.choices.forEach((choice, index) => {
     button.textcontent = choice.text;
     button.classList.add("choice-btn");
     button.onclick = () => makeChoice(index);
-    choicesContainer.appendChild("button");
+    choicesContainer.appendChild(button);
 });
