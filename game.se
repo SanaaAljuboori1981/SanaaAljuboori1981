@@ -10,4 +10,15 @@ const story = {
       { text: "Stanna kvar", next: "bear" }
     ]
     }
+};
+
+
+function makeChoice(choiceIndex) {
+  const currentScene = story[window.currentStory];
+
+  
+  if (choiceIndex < 0 || choiceIndex >= currentScene.choices.length) return;
+
+  const nextScene = currentScene.choices[choiceIndex].next;
+  updateStory(nextScene);
 }
