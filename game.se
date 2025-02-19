@@ -1,3 +1,13 @@
 const storyText = document.getElementById("storyText);
 choicesContainer = document.getElementById("choices);
 const.gameContainer = document.body;
+
+const story = {
+    start: {
+        text: "Du befinner dig i en mörk skog. Vad gör du?",
+        choices: [
+      { text: "Gå framåt", next: "river" },
+      { text: "Stanna kvar", next: "bear" }
+    ]
+    }
+}
