@@ -76,7 +76,7 @@ function updateStory(scene) {
   const currentScene = story[scene];
 
   // Update text
-  storyText.textContent = currentScene.text;
+  storyText.textContent = currentScene.text; 
 
   
 choicesContainer.innerHTML = "";
