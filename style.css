@@ -27,3 +27,18 @@
     max-width: 600px;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
+
+.choice-btn {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.choice-btn:hover {
+    background: #666;
+  }
+  
