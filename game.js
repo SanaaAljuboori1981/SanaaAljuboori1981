@@ -87,3 +87,16 @@ currentScene.choices.forEach((choice, index) => {
     button.onclick = () => makeChoice(index);
     choicesContainer.appendChild(button);
 });
+
+if (audio) {
+  audio.pause();
+  audio.currenTime = 0;
+}
+if (currentScene.sound) {
+  audio = new Audio(currentScene.sound);
+  audio.play();
+}
+}
+
+window.currentScene = "start";
+updateStory("start");
