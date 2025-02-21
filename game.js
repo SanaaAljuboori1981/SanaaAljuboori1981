@@ -5,11 +5,12 @@ const gameContainer = document.body;
 const story = {
     start: {
         text: "Du befinner dig i en mörk skog. Vad gör du?",
+        background: "assets/images/dark backrund image.jpg",
         choices: [
       { text: "Gå framåt", next: "river" },
       { text: "Stanna kvar", next: "bear" }
     ]
-    }
+    },
 };
 
 
