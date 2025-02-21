@@ -6,3 +6,15 @@
     font-family: Arial, sans-serif;
   }
   
+
+  body {
+    background-size: cover;
+    background-position: centter;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background 0.5s ease-in-out; 
+  }
