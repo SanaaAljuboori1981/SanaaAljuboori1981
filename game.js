@@ -70,6 +70,15 @@ function makeChoice(choiceIndex) {
   updateStory(nextScene);
 }
 
+
+function updateStory(scene) {
+  window.currentStory = scene;
+  const currentScene = story[scene];
+
+  // Update text
+  storyText.textContent = currentScene.text;
+
+  
 choicesContainer.innerHTML = "";
 currentScene.choices.forEach((choice, index) => {
     const button = document.creatElement("button);
