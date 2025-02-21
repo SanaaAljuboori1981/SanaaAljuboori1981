@@ -21,6 +21,15 @@ river: {
     { text: "Försök simma över", next: "drown" }
   ]
 },
+bear:{
+  text: "Du hör ljudet av en flod framför dig. Vad gör du?",
+  background: "assets/images/bear.jpg",
+  sounds: "assets/sounds/bear.mp3",
+  choices: [
+    { text: "Springa", next: "lost" },
+    { text: "Klättra upp i ett träd", next: "safe" }
+  ]
+},
 
 
 
