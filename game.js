@@ -30,6 +30,15 @@ bear:{
     { text: "Klättra upp i ett träd", next: "safe" }
   ]
 },
+cabin: {
+  text: "Du hittar en stuga. Det ser ut att finnas ljus där inne. Vad gör du?",
+background: "assets/images/cabin.jpg",
+sounds: "assets/sounds/wide.mp3",
+choices: [
+  { text: "Gå in", next: "safe" },
+  { text: "Gå vidare", next: "lost" }
+]
+},
 
 
 
