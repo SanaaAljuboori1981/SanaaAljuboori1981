@@ -1,6 +1,6 @@
-const storyText = document.getElementById("storyText);
-choicesContainer = document.getElementById("choices);
-const.gameContainer = document.body;
+const storyText = document.getElementById("storyText");
+const choicesContainer = document.getElementById("choices");
+const gameContainer = document.body;
 
 const story = {
     start: {
