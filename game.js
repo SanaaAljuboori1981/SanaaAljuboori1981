@@ -39,6 +39,11 @@ choices: [
   { text: "Gå vidare", next: "lost" }
 ]
 },
+drowing: {
+  background: "assets/images/drowing.jpg",
+  sounds: "assets/sounds/drowing.mp3",
+  choices: [{ text: "Börja om", next: "start" }]
+}
 
 
 
