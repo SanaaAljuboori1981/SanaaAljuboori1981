@@ -5,8 +5,8 @@ const gameContainer = document.body;
 const story = {
     start: {
         text: "Du befinner dig i en mörk skog. Vad gör du?",
-        background: "assets/images/dark_background.jpg"
-        sound: "assets/sounds/forest.mp3",
+        background: "assets/images/dark _background.jpg",
+      sound: "assets/sounds/forest.mp33",
         choices: [
       { text: "Gå framåt", next: "river" },
       { text: "Stanna kvar", next: "bear" }
@@ -94,13 +94,10 @@ document.body.style.backgroundSize = "cover";
 document.body.style.backgroundPosition = "center";
 document.body.style.backgroundRepeat = "no-repeat";
 
-if (audio) {
-  audio.pause();
-  audio.currentTime = 0;
-}
+
 if (currentScene.sound) {
-  audio = new Audio(currentScene.sound);
-  audio.play();
+  sound = new sound(currentScene.sound);
+  sound.play();
 }
 }
 
