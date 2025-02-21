@@ -1,4 +1,4 @@
-const storyText = document.getElementById("storyText");
+const storyText = document.getElementById("story-text");
 const choicesContainer = document.getElementById("choices");
 const gameContainer = document.body;
 
@@ -81,8 +81,8 @@ function updateStory(scene) {
   
 choicesContainer.innerHTML = "";
 currentScene.choices.forEach((choice, index) => {
-    const button = document.creatElement("button");
-    button.textcontent = choice.text;
+  const button = document.createElement("button");
+  button.textContent = choice.text;
     button.classList.add("choice-btn");
     button.onclick = () => makeChoice(index);
     choicesContainer.appendChild(button);
@@ -96,7 +96,7 @@ document.body.style.backgroundRepeat = "no-repeat";
 
 if (audio) {
   audio.pause();
-  audio.currenTime = 0;
+  audio.currentTime = 0;
 }
 if (currentScene.sound) {
   audio = new Audio(currentScene.sound);
@@ -105,4 +105,4 @@ if (currentScene.sound) {
 }
 
 window.currentStory = ("start");
-updateStory("start");
+updateStory(window.currentStory);
