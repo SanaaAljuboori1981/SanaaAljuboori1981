@@ -81,7 +81,7 @@ function updateStory(scene) {
   
 choicesContainer.innerHTML = "";
 currentScene.choices.forEach((choice, index) => {
-    const button = document.creatElement("button);
+    const button = document.creatElement("button");
     button.textcontent = choice.text;
     button.classList.add("choice-btn");
     button.onclick = () => makeChoice(index);
