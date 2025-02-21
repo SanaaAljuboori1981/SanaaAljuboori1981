@@ -5,7 +5,7 @@ const gameContainer = document.body;
 const story = {
     start: {
         text: "Du befinner dig i en mörk skog. Vad gör du?",
-        background: "assets/images/dark backrund image.jpg",
+        background: "assets/images/dark_background.jpg"
         sound: "assets/sounds/forest.mp3",
         choices: [
       { text: "Gå framåt", next: "river" },
@@ -15,7 +15,7 @@ const story = {
 river: {
   text: "Du hör ljudet av en flod framför dig. Vad gör du?",
   background: "assets/images/Jinzu_River.jpg",
-  sound: "assets/images/river.mp3",
+  sound: "assets/sounds/river.mp3",
   choices: [
     { text: "Följ floden", next: "cabin" },
     { text: "Försök simma över", next: "drown" }
@@ -104,5 +104,5 @@ if (currentScene.sound) {
 }
 }
 
-window.currentScene = "start";
+window.currentStory = ("start");
 updateStory("start");
