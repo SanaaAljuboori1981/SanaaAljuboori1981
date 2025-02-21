@@ -88,6 +88,12 @@ currentScene.choices.forEach((choice, index) => {
     choicesContainer.appendChild(button);
 });
 
+
+document.body.style.backgroundImage = `url('${currentScene.background}')`;
+document.body.style.backgroundSize = "cover";
+document.body.style.backgroundPosition = "center";
+document.body.style.backgroundRepeat = "no-repeat";
+
 if (audio) {
   audio.pause();
   audio.currenTime = 0;
