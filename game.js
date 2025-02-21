@@ -24,7 +24,7 @@ river: {
 bear:{
   text: "Du hör ljudet av en flod framför dig. Vad gör du?",
   background: "assets/images/bear.jpg",
-  sounds: "assets/sounds/bear.mp3",
+  sound: "assets/sounds/bear.mp3",
   choices: [
     { text: "Springa", next: "lost" },
     { text: "Klättra upp i ett träd", next: "safe" }
@@ -33,7 +33,7 @@ bear:{
 cabin: {
   text: "Du hittar en stuga. Det ser ut att finnas ljus där inne. Vad gör du?",
 background: "assets/images/cabin.jpg",
-sounds: "assets/sounds/wide.mp3",
+sound: "assets/sounds/wide.mp3",
 choices: [
   { text: "Gå in", next: "safe" },
   { text: "Gå vidare", next: "lost" }
@@ -41,9 +41,22 @@ choices: [
 },
 drowing: {
   background: "assets/images/drowing.jpg",
-  sounds: "assets/sounds/drowing.mp3",
+  sound: "assets/sounds/drowing.mp3",
   choices: [{ text: "Börja om", next: "start" }]
+},
+lost: {
+  text: "Du går vilse och hittar aldrig ut ur skogen...",
+  background: "assets/images/the_lost_scene.webp",
+  sound: "assets/sounds/wide.mp3",
+  choices: [{ text: "Börja om", next: "start" }]
+},
+safe: {
+  text: "Du hittar en säker plats och räddas nästa dag. Grattis, du överlevde!",
+  background: "assets/images/safe_place.jpg",
+  sound: "assets/sounds/sucss.mp3",
+  choices: [{ text: "Spela igen", next: "start" }]
 }
+};
 
 
 
