@@ -62,9 +62,9 @@ safe: {
 
 
 function makeChoice(choiceIndex) {
-  const currentScene = story[window.currentStory];
+  if (!story[window.currentStory]) return;
 
-  
+  const currentScene = story[window.currentStory];
   if (choiceIndex < 0 || choiceIndex >= currentScene.choices.length) return;
 
   const nextScene = currentScene.choices[choiceIndex].next;
