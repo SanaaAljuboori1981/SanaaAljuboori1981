@@ -44,4 +44,18 @@
   background: linear-gradient(135deg, #666, #333);
   transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+  #game-container {
+    padding: 20px;
+    max-width: 90px;
+  }
+
+  .choice-btn {
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+  
+  }
+}
   
