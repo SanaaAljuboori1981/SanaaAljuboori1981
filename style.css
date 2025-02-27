@@ -41,6 +41,7 @@
 }
 
 .choice-btn:hover {
-    background: #666;
-  }
+  background: linear-gradient(135deg, #666, #333);
+  transform: scale(1.05);
+}
   
