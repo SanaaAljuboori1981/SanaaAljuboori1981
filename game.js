@@ -6,7 +6,7 @@ let currentAudio = null;
 const story = {
     start: {
         text: "Du befinner dig i en mörk skog. Vad gör du?",
-        background: "assets/images/dark_forest.jpg",
+        background: "assets/images/dark_backgruond.forest.jpg",
         sound: "assets/sounds/dark_forest.mp3",
         choices: [
       { text: "Gå framåt", next: "river" },
