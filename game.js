@@ -22,8 +22,8 @@ river: {
     { text: "Försök simma över", next: "drown" }
   ]
 },
-bear:{
-  text: "En björn dyker upp framför dig! vad gör du?",
+bear: {
+  text: "En björn dyker upp framför dig! Vad gör du?",
   background: "assets/images/bear.jpg",
   sound: "assets/sounds/bear.mp3",
   choices: [
@@ -55,11 +55,11 @@ lost: {
 safe: {
   text: "Du hittar en säker plats och räddas nästa dag. Grattis, du överlevde!",
   background: "assets/images/safe_place.jpg",
-  sound: "assets/sounds/sucss.mp3",
+  sound: "assets/sounds/success.mp3",
   choices: [{ text: "Spela igen", next: "start" }]
 }
-};
 
+};
 
 
 function makeChoice(choiceIndex) {
