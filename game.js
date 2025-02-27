@@ -104,5 +104,7 @@ if (currentScene.sound) {
   currentAudio.play();
 }
 
-window.currentStory = ("start");
-updateStory'{window.curre}';
+}
+
+window.currentStory = "start";
+updateStory(window.currentStory);
