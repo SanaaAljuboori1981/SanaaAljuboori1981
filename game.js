@@ -6,8 +6,8 @@ let currentAudio = null;
 const story = {
     start: {
         text: "Du befinner dig i en mörk skog. Vad gör du?",
-        background: "assets/images/dark _background.jpg",
-      sound: "assets/sounds/forest.mp3",
+        background: "assets/images/dark_background.jpg",
+        sound: "assets/sounds/forest.mp3",
         choices: [
       { text: "Gå framåt", next: "river" },
       { text: "Stanna kvar", next: "bear" }
@@ -40,9 +40,10 @@ choices: [
   { text: "Gå vidare", next: "lost" }
 ]
 },
-drowing: {
-  background: "assets/images/drowing.jpg",
-  sound: "assets/sounds/drowing.mp3",
+drown: {
+  text: "Du druknade...",
+  background: "assets/images/drown.jpg",
+  sound: "assets/sounds/drown.mp3",
   choices: [{ text: "Börja om", next: "start" }]
 },
 lost: {
