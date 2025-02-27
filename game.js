@@ -23,7 +23,7 @@ river: {
   ]
 },
 bear:{
-  text: "Du hör ljudet av en flod framför dig. Vad gör du?",
+  text: "En björn dyker upp framför dig! vad gör du?",
   background: "assets/images/bear.jpg",
   sound: "assets/sounds/bear.mp3",
   choices: [
