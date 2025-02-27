@@ -6,8 +6,8 @@ let currentAudio = null;
 const story = {
     start: {
         text: "Du befinner dig i en mörk skog. Vad gör du?",
-        background: "assets/images/dark_background.jpg",
-        sound: "assets/sounds/forest.mp3",
+        background: "assets/images/dark_forest.jpg",
+        sound: "assets/sounds/dark_forest.mp3",
         choices: [
       { text: "Gå framåt", next: "river" },
       { text: "Stanna kvar", next: "bear" }
@@ -15,7 +15,7 @@ const story = {
     },
 river: {
   text: "Du hör ljudet av en flod framför dig. Vad gör du?",
-  background: "assets/images/Jinzu_River.jpg",
+  background: "assets/images/river.jpg",
   sound: "assets/sounds/river.mp3",
   choices: [
     { text: "Följ floden", next: "cabin" },
@@ -77,6 +77,12 @@ function updateStory(scene) {
   window.currentStory = scene;
   const currentScene = story[scene];
 
+  
+document.body.style.backgroundImage = `url('${currentScene.background}')`;
+document.body.style.backgroundSize = "cover";
+document.body.style.backgroundPosition = "center";
+document.body.style.backgroundRepeat = "no-repeat";
+
   // Update text
   storyText.textContent = currentScene.text; 
 
@@ -90,11 +96,6 @@ currentScene.choices.forEach((choice, index) => {
     choicesContainer.appendChild(button);
 });
 
-
-document.body.style.backgroundImage = `url('${currentScene.background}')`;
-document.body.style.backgroundSize = "cover";
-document.body.style.backgroundPosition = "center";
-document.body.style.backgroundRepeat = "no-repeat";
 
 if (currentScene.sound) {
   if (currentAudio) {
