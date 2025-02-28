@@ -8,3 +8,13 @@
 - 🎵 **Immersive Sound Effects** – Enhances gameplay experience.
 - 🎮 **Easy-to-Use UI** – Simple button-based controls.
 - 📱 **Responsive Design** – Works on mobile and desktop.
+
+## 📂 Project Structure
+ The Lost Explorer 
+ ── 📄 index.html # Main HTML file 
+ ── 📄 style.css # Game styling 
+ ── 📄 game.js # Game logic and story paths 
+ ── 📂 assets/ # Contains images and sounds 
+ ── images/ # Scene backgrounds 
+ ── sounds/ # Game audio 
+ ── 📄 README.md # Project documentation
