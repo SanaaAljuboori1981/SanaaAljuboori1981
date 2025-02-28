@@ -18,3 +18,12 @@
  -  images/ # Scene backgrounds 
  -  sounds/ # Game audio 
  -  📄 README.md # Project documentation
+
+ 👤 How to Play
+
+1- Open index.html in a web browser.
+
+2- Read the story and choose an action by clicking the buttons.
+
+3- Explore different paths and try to survive!
+
