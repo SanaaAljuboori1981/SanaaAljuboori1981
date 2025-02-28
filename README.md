@@ -11,10 +11,10 @@
 
 ## 📂 Project Structure
  The Lost Explorer 
- ── 📄 index.html # Main HTML file 
- ── 📄 style.css # Game styling 
- ── 📄 game.js # Game logic and story paths 
- ── 📂 assets/ # Contains images and sounds 
- ── images/ # Scene backgrounds 
- ── sounds/ # Game audio 
- ── 📄 README.md # Project documentation
+ - ── 📄 index.html # Main HTML file 
+ - ── 📄 style.css # Game styling 
+ - ── 📄 game.js # Game logic and story paths 
+ - ── 📂 assets/ # Contains images and sounds 
+ - ── images/ # Scene backgrounds 
+ - ── sounds/ # Game audio 
+ - ── 📄 README.md # Project documentation
