@@ -8,7 +8,7 @@
   
 
   body {
-    background: url('assets/images/dark_forest.jpg') no-repeat center center/cover;
+    background: url('assets/images/dark_background.forest.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@
   from {
     opacity: 0;
     transform: scale(0.9);
-    
+
   }
   to {
     opacity: 1;
