@@ -48,14 +48,12 @@ Branching choices leading to different paths
 Interactive elements including background images & sound
 This structure provides a well-balanced, engaging adventure with multiple paths and replayability
 
-The player sees an introduction.
-Background music begins to play.
-The player chooses:
 1. Room 1 Start – Dark Forest 🌲
+The player sees an introduction.
 Text: "Du befinner dig i en mörk skog. Vad gör du?"
-Background: dark_background.forest.jpg
-Sound: dark_forest.mp3
-Choices:
+Background: dark_background.forest.jpg 
+Sound: dark_forest.mp3 - Background music begins to play
+The player chooses:
 Gå framåt → Leads to River 🌊
 Stanna kvar → Leads to Bear 🐻
 
