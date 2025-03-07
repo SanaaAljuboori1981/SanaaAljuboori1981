@@ -41,9 +41,14 @@ Start (index.html)
 The player sees an introduction.
 Background music begins to play.
 The player chooses:
-"Enter the forest"
-"Follow the river"
-Room 1: Dark forest
+1. Start – Dark Forest 🌲
+Text: "Du befinner dig i en mörk skog. Vad gör du?"
+Background: dark_background.forest.jpg
+Sound: dark_forest.mp3
+Choices:
+Gå framåt → Leads to River 🌊
+Stanna kvar → Leads to Bear 🐻
+
 
 The player can:
 "Enter the cave" (Risk of encountering a monster)
