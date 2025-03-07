@@ -51,7 +51,7 @@ This structure provides a well-balanced, engaging adventure with multiple paths 
 The player sees an introduction.
 Background music begins to play.
 The player chooses:
-1. Start – Dark Forest 🌲
+1. Room 1 Start – Dark Forest 🌲
 Text: "Du befinner dig i en mörk skog. Vad gör du?"
 Background: dark_background.forest.jpg
 Sound: dark_forest.mp3
@@ -59,7 +59,7 @@ Choices:
 Gå framåt → Leads to River 🌊
 Stanna kvar → Leads to Bear 🐻
 
-River 🌊
+2. Room 2 - River 🌊
 Text: "Du hör ljudet av en flod framför dig. Vad gör du?"
 Background: river.jpg
 Sound: river.mp3
@@ -67,10 +67,14 @@ Choices:
 Följ floden → Leads to Cabin 🏡
 Försök simma över → Leads to Drown 💀
 
+
+Room 3- Bear Encounter 🐻
+Text: "En björn dyker upp framför dig! Vad gör du?"
+Background: bear.jpg
+Sound: bear.mp3
 The player can:
-"Enter the cave" (Risk of encountering a monster)
-"Climb a tree" (Sees a map)
-Room 2: The river
+Springa → Leads to Lost 🌲
+Klättra upp i ett träd → Leads to Safe 🏆
 
 The player can:
 "Follow the river" (Can find the treasure)
