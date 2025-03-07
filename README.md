@@ -38,6 +38,16 @@ Objective: The player must explore a mysterious forest, avoid dangers, and find 
 🎮 Game Flow
 Start (index.html)
 
+Game Description
+7 unique rooms
+3 possible endings:
+Safe – Victory 🏆
+Drown – Game Over 💀
+Lost – Game Over 🌲
+Branching choices leading to different paths
+Interactive elements including background images & sound
+This structure provides a well-balanced, engaging adventure with multiple paths and replayability
+
 The player sees an introduction.
 Background music begins to play.
 The player chooses:
@@ -49,6 +59,13 @@ Choices:
 Gå framåt → Leads to River 🌊
 Stanna kvar → Leads to Bear 🐻
 
+River 🌊
+Text: "Du hör ljudet av en flod framför dig. Vad gör du?"
+Background: river.jpg
+Sound: river.mp3
+Choices:
+Följ floden → Leads to Cabin 🏡
+Försök simma över → Leads to Drown 💀
 
 The player can:
 "Enter the cave" (Risk of encountering a monster)
