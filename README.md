@@ -89,7 +89,16 @@ Sound: drown.mp3
 The player can : 
 Börja om → Leads to Start 🌲
 
+6. Room 6- Lost – Game Over 🌲
+Text: "Du går vilse och hittar aldrig ut ur skogen..."
+Background: the_lost_scene.webp
+Sound: wide.mp3
+The player can :
+Börja om → Leads to Start 🌲
 
-If the player makes the right choice, they find the treasure. 🎉
-If they make the wrong choice, they encounter a monster and lose. 
-
+7. Room 7- Safe – Victory! 🏆
+Text: "Du hittar en säker plats och räddas nästa dag. Grattis, du överlevde!"
+Background: safe_place.jpg
+Sound: success.mp3
+The player can :
+Spela igen → Leads to Start 🌲
