@@ -117,3 +117,11 @@ Background: safe_place.jpg
 Sound: success.mp3
 The player can :
 Spela igen → Leads to Start 🌲
+
+
+Projektlänkar:
+- 🔗 GitHub Repository (kod och filer):
+https://github.com/SanaaAljuboori1981/SanaaAljuboori1981
+
+- 🌐 GitHub Pages (spel-demo):
+https://sanaaaljuboori1981.github.io/SanaaAljuboori1981/
