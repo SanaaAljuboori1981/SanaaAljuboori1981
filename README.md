@@ -35,28 +35,33 @@
  -  sounds/ # Game audio 
  -  📄 README.md # Project documentation
 
- 👤 How to Play
+ ---
 
-1- Open index.html in a web browser.
+## 👣 How to Play
 
-2- Read the story and choose an action by clicking the buttons.
+1. Open `index.html` in your browser.
+2. Read the scene description.
+3. Click a button to make a choice.
+4. Discover where your decisions take you!
 
-3- Explore different paths and try to survive!
+---
 
 
-
-🎮 Game Flow
+## 🎮 Game Flow — 7 Rooms Adventure
 Start (index.html)
 
-Game Description
-7 unique rooms
-3 possible endings:
-Safe – Victory 🏆
-Drown – Game Over 💀
-Lost – Game Over 🌲
-Branching choices leading to different paths
-Interactive elements including background images & sound
-This structure provides a well-balanced, engaging adventure with multiple paths and replayability
+G Room | Scene Title        | Description                       Outcomes     |
+|------|--------------------|------------------------------------------------------------------
+| 1    | Dark Forest 🌲     | You're in a dark forest.         | → River 🌊 or Bear 🐻     
+| 2    | River 🌊           | You hear water ahead.            | → Cabin 🏡 or Drown 💀    
+| 3    | Bear Encounter 🐻  | A bear appears!                  | → Lost 🌲 or Safe 🏆     
+| 4    | Cabin 🏡           | You find a mysterious cabin.     | → Safe 🏆 or Lost 🌲     
+| 5    | Drown              | You tried to swim across and drowned.| → Restart               
+| 6    | Lost 🌲            | You got lost in the forest.        | → Restart               
+| 7    | Safe 🏆            | You survived and were rescued the next day. | → Play again      
+    
+
+---
 
 1. Room 1 Start – Dark Forest 🌲
 The player sees an introduction.
