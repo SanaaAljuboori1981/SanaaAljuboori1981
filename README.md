@@ -66,7 +66,7 @@ Följ floden → Leads to Cabin 🏡
 Försök simma över → Leads to Drown 💀
 
 
-Room 3- Bear Encounter 🐻
+3. Room 3- Bear Encounter 🐻
 Text: "En björn dyker upp framför dig! Vad gör du?"
 Background: bear.jpg
 Sound: bear.mp3
@@ -74,10 +74,20 @@ The player can:
 Springa → Leads to Lost 🌲
 Klättra upp i ett träd → Leads to Safe 🏆
 
+4. Room 4- Cabin 
+Text: "Du hittar en stuga. Det ser ut att finnas ljus där inne. Vad gör du?"
+Background: cabin.jpg
+Sound: wide.mp3
 The player can:
-"Follow the river" (Can find the treasure)
-"Swim across" (Risk of being swallowed by the current)
-Room 3: Treasure or monster
+Gå in → Leads to Safe 🏆
+Gå vidare → Leads to Lost 🌲
+
+5. Room 5- Drown – Game Over 💀
+Text: "Du druknade..."
+Background: drown.jpg
+Sound: drown.mp3
+The player can : 
+Börja om → Leads to Start 🌲
 
 
 If the player makes the right choice, they find the treasure. 🎉
